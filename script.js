@@ -20,5 +20,5 @@ document.getElementById('convert').addEventListener('click', () => {
       output += ' ' + token
     }
   }
-  console.log(output.substring(1))
+  document.getElementById('output').textContent = output
 })
