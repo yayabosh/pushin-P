@@ -25,6 +25,9 @@ document.getElementById('convert').addEventListener('click', () => {
       if (!consonant) {
         output += ' ' + token
       }
+    } else if (token.includes('p')) {
+      const index = token.indexOf('p')
+      output += ' ' + token.substring(0, index) + 🅿️ + token.substring(index + 1)
     } else {
       output += ' ' + token
     }
