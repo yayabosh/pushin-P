@@ -27,7 +27,7 @@ document.getElementById('convert').addEventListener('click', () => {
       }
     } else if (token.includes('p')) {
       const index = token.indexOf('p')
-      output += ' ' + token.substring(0, index) + 🅿️ + token.substring(index + 1)
+      output += ' ' + token.substring(0, index) + '🅿️' + token.substring(index + 1)
     } else {
       output += ' ' + token
     }
